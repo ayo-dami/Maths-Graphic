@@ -1,0 +1,8 @@
+5		// Number of Vertices
+400 50 10	// Vertex 0 : x,y,z  Vertices are ordered clockwise, if you are facing the front of the polygon.
+500 200 10	// Vertex 1 : x,y,z
+700 200 10
+400 450 10	// Vertex 2 : x,y,z
+120 220 10  // Vertex 3 : x,y,z
+150 20 10  // Colour : r,g,b
+0

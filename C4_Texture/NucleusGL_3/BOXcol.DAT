@@ -1,0 +1,37 @@
+4			// Number of Vertices
+0 0 0		// Vertex 0 : x,y,z  Vertices are ordered clockwise, if you are facing the front of the polygon.
+0 -200 0	// Vertex 1 : x,y,z
+200 -200 0	// Vertex 2 : x,y,z
+200 0 0		// Vertex 3 : x,y,z 
+255 0 0 // Colour - in range 0-1
+4			// Number of Vertices
+0 0 0		// etc
+0 0 200
+0 -200 200
+0 -200 0
+0 0 255 
+4
+0 0 0
+200 0 0
+200 0 200
+0 0 200
+0 255 0 
+4
+0 0 200
+200 0 200   
+200 -200 200
+0 -200 200 
+255 0 255 
+4
+200 -200 0  
+200 -200 200
+200 0 200
+200 0 0
+255 132 211 
+4
+0 -200 200 
+200 -200 200
+200 -200 0 
+0 -200 0
+152 255 199 
+0		// Zero in Number of vertices field indicates end of file

@@ -1,0 +1,13 @@
+syntax: glob
+*.obj
+*.pdb
+*.ncb
+*.log
+*.exe
+*.tlog
+*.suo
+*.metagen
+*.res
+*.opensdf
+*.sdf
+*.dep

@@ -1,0 +1,22 @@
+number of vertices: 4
+number of vertices: 4
+number of vertices: 4
+number of vertices: 4
+number of vertices: 4
+number of vertices: 4
+number of vertices: 0
+ number of vertices: 4
+before clipping Polygon 0, Vertex 0 values:  400.00,  400.00,    0.002365
+before clipping Polygon 0, Vertex 1 values:  400.00,  210.78,    0.002365
+before clipping Polygon 0, Vertex 2 values:  589.22,  210.78,    0.002365
+before clipping Polygon 0, Vertex 3 values:  589.22,  400.00,    0.002365
+ number of vertices: 4
+before clipping Polygon 1, Vertex 0 values:  400.00,  400.00,    0.002365
+before clipping Polygon 1, Vertex 1 values:  400.00,  400.00,    0.001971
+before clipping Polygon 1, Vertex 2 values:  400.00,  242.32,    0.001971
+before clipping Polygon 1, Vertex 3 values:  400.00,  210.78,    0.002365
+ number of vertices: 4
+before clipping Polygon 2, Vertex 0 values:  400.00,  400.00,    0.002365
+before clipping Polygon 2, Vertex 1 values:  589.22,  400.00,    0.002365
+before clipping Polygon 2, Vertex 2 values:  557.68,  400.00,    0.001971
+before clipping Polygon 2, Vertex 3 values:  400.00,  400.00,    0.001971

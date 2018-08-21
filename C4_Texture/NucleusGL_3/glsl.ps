@@ -1,0 +1,33 @@
+//--------------------------------------------------------------------------------------------
+// File:		glsl.ps
+// Version:		V2.0
+// Author:		Daniel Rhodes
+// Date:		13/07/2005
+// Description:	Texture	Mapping	Pixel Shader in	GLSL
+// Notes:		GLSL documentation can be found	at:
+//				http://developer.3dlabs.com/openGL2/index.htm
+// Varying:		gl_TexCoord[0]					= output vertex	tex	coords 0
+// Uniform:		fTexture						= texture image
+// Output:		gl_FragColor					= output vertex	color
+//--------------------------------------------------------------------------------------------
+
+#version 110
+#pragma optimise(off)	// Turn off some (but not all!!!) optimisations,
+						// makes more readable ASM
+#pragma debug(on)		// Adds extra debug info to output log (ilog_*.txt etc.),
+						// need NVemulate.exe to activate on NVIDIA cards
+
+uniform sampler2D fTexture;
+
+// Perform frexp function as defined by Cg & HLSL
+float frexp( float x, out float e )
+{
+   e = ceil( log2( x ) );
+   return( x * exp2( -e ) );
+}
+
+void main( )
+{
+	// Get pixel colour from input texture
+	gl_FragColor = texture2D( fTexture, gl_TexCoord[0].xy );
+}
